@@ -1,0 +1,12 @@
+d={}
+n=int(input())
+for i in range(0,n):
+    mystring=input()
+    mylist=mystring.split()
+    d[mylist[0]]={mylist[1],mylist[2], mylist[3]}
+    
+
+name =input()
+mylsy=list(d[name])
+sum=(int(mylsy[0])+int(mylsy[1])+int(mylsy[2]))/3
+print(sum)
